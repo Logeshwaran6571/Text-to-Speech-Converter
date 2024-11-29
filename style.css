@@ -1,0 +1,53 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1081%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M1488 560L0 560 L0 239.15Q41.92 161.07%2c 120 202.99Q205.1 168.09%2c 240 253.2Q241.59 182.78%2c 312 184.37Q355.62 107.99%2c 432 151.6Q473.63 121.24%2c 504 162.87Q580.63 167.5%2c 576 244.13Q565.13 161.26%2c 648 150.4Q689.02 71.42%2c 768 112.44Q809.5 81.94%2c 840 123.45Q882 93.44%2c 912 135.44Q1008.22 159.66%2c 984 255.88Q979.15 131.03%2c 1104 126.19Q1205.88 156.06%2c 1176 257.94Q1175.21 137.15%2c 1296 136.36Q1323.97 92.33%2c 1368 120.3Q1445.28 77.57%2c 1488 154.85z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1560 560L0 560 L0 367.42Q34.9 330.32%2c 72 365.22Q71.31 292.53%2c 144 291.84Q176.45 204.29%2c 264 236.74Q311.81 212.56%2c 336 260.37Q424.5 276.88%2c 408 365.38Q399.11 236.49%2c 528 227.6Q606.28 233.88%2c 600 312.16Q687.69 279.85%2c 720 367.54Q745.26 320.8%2c 792 346.06Q812.46 294.52%2c 864 314.98Q902.31 233.3%2c 984 271.61Q1000.59 216.2%2c 1056 232.79Q1123.57 180.36%2c 1176 247.93Q1231.7 231.63%2c 1248 287.33Q1299.22 266.55%2c 1320 317.78Q1355.04 232.81%2c 1440 267.85Q1494.08 201.93%2c 1560 256.01z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 481.51Q-12.44 397.07%2c 72 384.63Q119.62 312.25%2c 192 359.86Q288.84 336.7%2c 312 433.54Q368.41 417.95%2c 384 474.35Q429.89 400.25%2c 504 446.14Q520.01 390.15%2c 576 406.16Q649.71 359.87%2c 696 433.58Q712.66 330.25%2c 816 346.91Q858.96 317.88%2c 888 360.84Q961.42 362.26%2c 960 435.68Q1007.05 410.73%2c 1032 457.77Q1045.33 399.1%2c 1104 412.43Q1144.81 333.24%2c 1224 374.04Q1241.23 319.27%2c 1296 336.51Q1385.26 353.77%2c 1368 443.04Q1443.21 398.25%2c 1488 473.47z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 522.1Q38.55 488.65%2c 72 527.2Q117.24 452.44%2c 192 497.68Q239.79 425.47%2c 312 473.25Q341.13 430.38%2c 384 459.52Q439.03 442.55%2c 456 497.58Q508.6 478.18%2c 528 530.78Q579.35 462.13%2c 648 513.47Q682.3 427.77%2c 768 462.08Q846.61 420.69%2c 888 499.3Q947.49 486.79%2c 960 546.29Q986.25 500.54%2c 1032 526.79Q1031.89 454.68%2c 1104 454.58Q1151.01 429.58%2c 1176 476.59Q1257.88 486.47%2c 1248 568.35Q1230.79 479.13%2c 1320 461.92Q1423.4 493.32%2c 1392 596.72Q1389.77 474.49%2c 1512 472.25z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1081'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+h1
+{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 4px 10px rgb(0, 0, 0);
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
+
+textarea
+{
+    margin: 30px 0;
+    height: 150px;
+    width: 300px;
+    border: none;
+    box-shadow: 5px 6px 10px black;
+    outline: none;
+}
+
+button
+{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    width: 150px;
+    font-weight: bold;
+}
